@@ -1,0 +1,146 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+intents:
+  - welcome
+  - greet
+  - tell_name
+  - tell_email
+  - tell_phonenumber
+  - search_service
+  - coding
+  - writing
+  - pbl
+  - tbl
+  - inform
+  - advance
+  - basic
+  - expert
+  - topic
+  - affirm
+  - deny
+  - bot_challenge
+  - goodbye
+  # - search_service
+  # - inform_form
+  # - msgus
+
+entities:
+  - language
+  - name
+  - email
+  - phonenumber
+  - level
+
+slots:
+  email:
+    type: unfeaturized
+    auto_fill: false
+  index:
+    type: text
+  name:
+    type: unfeaturized
+  phonenumber:
+    type: unfeaturized
+  service:
+    type: unfeaturized
+  level:
+    type: unfeaturized
+  language:
+    type: unfeaturized
+  topic:
+    type: unfeaturized
+
+responses:
+
+  utter_welcome:
+    - text: Hey Welcome.! I Am Bot Your Virtual Assistant."
+    - text: Hello Welcome.!! I Am Bot Your Virtual Assistant."
+    - text: Hi Welcome.! I Am Bot Your Virtual Assistant."
+    - text: Hey! I Am Bot Your Virtual Assistant.
+
+  utter_greet:
+    - text: "Hello User, What's Your Name?"
+
+  utter_goodbye:
+    - text: "Thank You For Choosing Us, Bye."
+    - text: "Nice Talk With You, By."
+    - text: "Thank's, You Made My Day ByBy."
+    - text: "Thank You Come Again, Bye"
+
+  utter_iamabot:
+    - text: "I Am A Bot, Powered By Rising Root Technologies Limited."
+
+  utter_coding:
+    - text: "That's Great, Which Language Or Technology You Are Looking For?"
+    - text: "Awesome, Which Language Or Technology You Are Looking For?"
+    - text: "Good To Go, Which Language Or Technology You Are Looking For?"
+    - text: "That's Nice, Which Language Or Technology You Are Looking For?"
+
+  utter_pbl:
+    - text: "That's Great,On Which Technology You Are Looking For Project?"
+    - text: "Awesome,On Which Technology You Are Looking For Project?"
+    - text: "Good To Go,On Which Technology You Are Looking For Project?"
+    - text: "That's Nice,On Which Technology You Are Looking For Project?"
+
+  utter_tbl:
+    - text: "That's Great, Please Reply With Technology Or Language."
+    - text: "Awesome, Please Reply With Technology Or Language."
+    - text: "Good To Go, Please Reply With Technology Or Language."
+    - text: "That's Nice, Please Reply With Technology Or Language."
+
+  utter_search_service:
+    - buttons:
+        - payload: /coding
+          title: Coding
+        - payload: /writing
+          title: Writing
+        - payload: /tbl
+          title: Topic Based Learning
+        - payload: /pbl
+          title: Project Based Learning
+      text: "In Which Service Are You Looking For Help?"
+
+  utter_morehelp:
+    - buttons:
+        - payload: /search_service
+          title: "Yes"
+        - payload: /deny
+          title: "No"
+      text: "Is You Need More Help?"
+
+  utter_noworries:
+    - text: "Thank You For Contacting Us."
+
+  utter_ask_name:
+    - text: "Your Name, Please?"
+
+  utter_ask_email:
+    - text: "Your Email, Please?"
+
+  utter_msgus:
+    - text: Please write us on akash2710raj@gmail.com
+
+actions:
+  - action_fallback
+  - action_validate
+  - action_coding
+  - action_writing
+  - action_tellname
+  - action_tellemail
+  - action_tellphonenumber
+  - action_welcome
+  - action_pbl
+  - action_level
+  - action_tbl
+  - action_basiclogic
+  - action_basictopic
+  - action_advancelogic
+  - action_advancetopic
+  - action_expertlogic
+  - action_experttopic
+  - action_topic
+
+forms:
+  - feedback_form

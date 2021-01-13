@@ -1,0 +1,125 @@
+{
+  "service": {
+
+    "coding": {
+      "python": {
+        "faculty_name1": "Mr. Akash Raj",
+        "next_batch1": "August 31,2020",
+        "faculty_name2": "Mr. Anand Raj",
+        "next_batch2": "August 15,2020",
+        "faculty_name3": "Mr. Manoj Raj",
+        "next_batch3": "August 31,2020", 
+        "link": "https://www.w3schools.com/python/"
+      },
+      "css": {
+        "next_batch1": "August 25,2020",
+        "link": "https://www.w3schools.com/css/"
+      },
+      "java": {
+        "faculty_name1": "Mr. Akash Raj",
+        "next_batch1": "August 31,2020",
+        "faculty_name2": "Mr. Anand Raj",
+        "next_batch2": "August 15,2020",
+        "faculty_name3": "Mr. Manoj Raj",
+        "next_batch3": "August 31,2020", 
+        "link": "https://www.w3schools.com/python/"
+      },
+      "html": {
+        "next_batch": "August 16,2020",
+        "link": "https://www.w3schools.com/html/"
+      },
+      "js": {
+        "next_batch": "August 20,2020",
+        "link": "https://www.tutorialspoint.com/javascript/index.htm"
+      },
+      "c": {
+        "next_batch": "August 18,2020",
+        "link": "https://www.tutorialspoint.com/cprogramming/index.htm"
+      }
+    },
+
+    "pbl": {
+      "python": {
+        "p_name1": "Project 1 Python",
+        "duration1": "1 Months",
+        "p_name2": "Project 2 Python",
+        "duration2": "2 Months",
+        "p_name3": "Mr. Manoj Raj",
+        "duration3": "3 Months", 
+        "link": "https://www.w3schools.com/python/"
+      },
+      "css": {
+        "next_batch": "August 25,2020",
+        "link": "https://www.w3schools.com/css/"
+      },
+      "java": {
+        "next_batch": "August 5,2020",
+        "link": "https://www.tutorialspoint.com/java/index.htm"
+      },
+      "html": {
+        "next_batch": "August 16,2020",
+        "link": "https://www.w3schools.com/html/"
+      },
+      "js": {
+        "next_batch": "August 20,2020",
+        "link": "https://www.tutorialspoint.com/javascript/index.htm"
+      },
+      "c": {
+        "next_batch": "August 18,2020",
+        "link": "https://www.tutorialspoint.com/cprogramming/index.htm"
+      }
+    },
+
+    "tbl": {
+      "python":{
+        "introduction":{
+          "faculty_name1": "Mr. Akash Raj",
+          "next_batch1": "May,2020",
+          "topic1":"intro 1",
+          "faculty_name2": "Mr. Anand Raj",
+          "next_batch2": "August 15,2020",
+          "topic2":"intro 2",
+          "faculty_name3": "Mr. Manoj Raj",
+          "next_batch3": "August 31,2020", 
+          "topic3":"intro 3",
+          "link1": "https://www.w3schools.com/python/",
+          "link2": "https://www.w3schools.com/python/",
+          "link3": "https://www.w3schools.com/python/"
+        }
+      }
+    },
+
+    "basic":{
+      "python":{
+        "python introduction": "t1",
+        "python datatypes": "t2"
+      },
+      "java":{
+        "intro java": "t1",
+        "d types java": "t2"
+      }
+    },
+
+    "advance":{
+      "python":{
+        "advance pyt 1": "t1",
+        "d types advance pyt": "t2"
+      },
+      "java":{
+        "intro advance java": "t1",
+        "d types advance java": "t2"
+      }
+    },
+
+    "expert":{
+      "python":{
+        "intro expert pyt": "t1",
+        "d types expert pyt": "t2"
+      }
+    },
+
+    "writing": {
+      "link": "https://www.akashraj.info/"
+    }
+  }
+}

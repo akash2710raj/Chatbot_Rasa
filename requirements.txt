@@ -1,0 +1,5 @@
+rasa
+pandas
+recognizers-text-suite
+mysql-connector-python
+pytz

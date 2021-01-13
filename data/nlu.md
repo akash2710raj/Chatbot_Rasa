@@ -1,0 +1,536 @@
+## intent:welcome
+- welcome
+- welcome to our website
+- we welcomes you
+- welcome message
+
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+- gm
+- ge
+- hiii
+- hlooo
+- heeeloooo
+- halo
+- hieeee
+- gd mrng
+- gd evng
+- hi there
+- hello there
+- halo there
+- hiiiii there
+- helloo
+- hhhheeeeelloooo
+- hhheloooo
+- hyyyy
+- hiyyy
+- hiiiiiiiiiii
+- hallo
+- hailo
+- hellooo
+- hloooo
+- hoooo
+- helllloooo
+- hiiiiiii
+- heyyy
+- hola
+- hellllo
+- heeeloo
+
+## intent: tell_name
+- my name is [akash]{"entity":"name","value":"akash"}
+- i am [akash]{"entity":"name","value":"akash"}
+- call me as [akash]{"entity":"name","value":"akash"}
+- call me [akash]{"entity":"name","value":"akash"}
+- you can call me [abhishek]{"entity":"name","value":"abhishek"}
+- [akash]{"entity":"name","value":"akash"}
+- [abhishek]{"entity":"name","value":"abhishek"}
+- [akash]{"entity":"name","value":"akash"} is my name
+- i don't want to tell my name
+- i won't tell you my name
+- why should i provide my name
+- i am [uday]{"entity":"name","value":"uday"}
+
+## intent: tell_email
+- my email is [akash2710raj@gmailcom]{"entity":"email","value":"akash2710raj@gmail.com"}
+- my mail is [madukar.anand@outlook.com]{"entity":"email","value":"akash"}
+- mail me on [srishti25kumari@microsoft.com]{"entity":"email","value":"srishti25kumari@microsoft.com"}
+- mail me at [tkiranmay2910@hotmail.com]{"entity":"email","value":"tkiranmay2910@hotmail.com"}
+- my email is [test@example.com]{"entity":"email","value":"test@example.com"}
+- my email is [abraham.lincoln@example.com]{"entity":"email","value":"abraham.lincoln@example.com"}
+- [abraham.lincoln@example.com]{"entity":"email","value":"abraham.lincoln@example.com"}
+- it is [abraham.lincoln@abc.com]{"entity":"email","value":"abraham.lincoln@abc.com"}
+- it is [uday@gmail.com]{"entity":"email","value":"uday@gmail.com"}
+- [abc@gmail.com]{"entity":"email","value":"abc@gmail.com"}
+- [akash@gmail.com]{"entity":"email","value":"akash@gmail.com"}
+- [yash@yahoo.com]{"entity":"email","value":"yash@yahoo.com"}
+- [kevin@xyz.com]{"entity":"email","value":"kevin@xyz.com"}
+- my id is [saini@siva.com]{"entity":"email","value":"saini@siva.com"}
+- my email is [akash2710raj@gmailcom]{"entity":"email","value":"akash2710raj@gmail.com"}
+- my mail is [madukar.anand@outlook.com]{"entity":"email","value":"akash"}
+- mail me on [srishti25kumari@microsoft.com]{"entity":"email","value":"srishti25kumari@microsoft.com"}
+- mail me at [tkiranmay2910@hotmail.com]{"entity":"email","value":"tkiranmay2910@hotmail.com"}
+- my email is [test@example.com]{"entity":"email","value":"test@example.com"}
+- my email is [abraham.lincoln@example.com]{"entity":"email","value":"abraham.lincoln@example.com"}
+- [abraham.lincoln@example.com]{"entity":"email","value":"abraham.lincoln@example.com"}
+- it is [abraham.lincoln@abc.com]{"entity":"email","value":"abraham.lincoln@abc.com"}
+- it is [uday@gmail.com]{"entity":"email","value":"uday@gmail.com"}
+- [abc@gmail.com]{"entity":"email","value":"abc@gmail.com"}
+- [akash@gmail.com]{"entity":"email","value":"akash@gmail.com"}
+- [yash@yahoo.com]{"entity":"email","value":"yash@yahoo.com"}
+- [kevin@xyz.com]{"entity":"email","value":"kevin@xyz.com"}
+- my id is [saini@siva.com]{"entity":"email","value":"saini@siva.com"}
+- my email is [akash2710raj@gmailcom]{"entity":"email","value":"akash2710raj@gmail.com"}
+- my mail is [madukar.anand@outlook.com]{"entity":"email","value":"akash"}
+- mail me on [srishti25kumari@microsoft.com]{"entity":"email","value":"srishti25kumari@microsoft.com"}
+- mail me at [tkiranmay2910@hotmail.com]{"entity":"email","value":"tkiranmay2910@hotmail.com"}
+- my email is [test@example.com]{"entity":"email","value":"test@example.com"}
+- my email is [abraham.lincoln@example.com]{"entity":"email","value":"abraham.lincoln@example.com"}
+- [abraham.lincoln@example.com]{"entity":"email","value":"abraham.lincoln@example.com"}
+- it is [abraham.lincoln@abc.com]{"entity":"email","value":"abraham.lincoln@abc.com"}
+- it is [uday@gmail.com]{"entity":"email","value":"uday@gmail.com"}
+- [abc@gmail.com]{"entity":"email","value":"abc@gmail.com"}
+- [akash@gmail.com]{"entity":"email","value":"akash@gmail.com"}
+- [yash@yahoo.com]{"entity":"email","value":"yash@yahoo.com"}
+- [kevin@xyz.com]{"entity":"email","value":"kevin@xyz.com"}
+- my id is [saini@siva.com]{"entity":"email","value":"saini@siva.com"}
+- my email is [akash2710raj@gmailcom]{"entity":"email","value":"akash2710raj@gmail.com"}
+- my mail is [madukar.anand@outlook.com]{"entity":"email","value":"akash"}
+- mail me on [srishti25kumari@microsoft.com]{"entity":"email","value":"srishti25kumari@microsoft.com"}
+- mail me at [tkiranmay2910@hotmail.com]{"entity":"email","value":"tkiranmay2910@hotmail.com"}
+- my email is [test@example.com]{"entity":"email","value":"test@example.com"}
+- my email is [abraham.lincoln@example.com]{"entity":"email","value":"abraham.lincoln@example.com"}
+- [abraham.lincoln@example.com]{"entity":"email","value":"abraham.lincoln@example.com"}
+- it is [abraham.lincoln@abc.com]{"entity":"email","value":"abraham.lincoln@abc.com"}
+- it is [uday@gmail.com]{"entity":"email","value":"uday@gmail.com"}
+- [abc@gmail.com]{"entity":"email","value":"abc@gmail.com"}
+- [akash@gmail.com]{"entity":"email","value":"akash@gmail.com"}
+- [yash@yahoo.com]{"entity":"email","value":"yash@yahoo.com"}
+- [kevin@xyz.com]{"entity":"email","value":"kevin@xyz.com"}
+- my id is [saini@siva.com]{"entity":"email","value":"saini@siva.com"}
+- my email is [akash2710raj@gmailcom]{"entity":"email","value":"akash2710raj@gmail.com"}
+- my mail is [madukar.anand@outlook.com]{"entity":"email","value":"akash"}
+- mail me on [srishti25kumari@microsoft.com]{"entity":"email","value":"srishti25kumari@microsoft.com"}
+- mail me at [tkiranmay2910@hotmail.com]{"entity":"email","value":"tkiranmay2910@hotmail.com"}
+- my email is [test@example.com]{"entity":"email","value":"test@example.com"}
+- my email is [abraham.lincoln@example.com]{"entity":"email","value":"abraham.lincoln@example.com"}
+- [abraham.lincoln@example.com]{"entity":"email","value":"abraham.lincoln@example.com"}
+- it is [abraham.lincoln@abc.com]{"entity":"email","value":"abraham.lincoln@abc.com"}
+- it is [uday@gmail.com]{"entity":"email","value":"uday@gmail.com"}
+- [abc@gmail.com]{"entity":"email","value":"abc@gmail.com"}
+- [akash@gmail.com]{"entity":"email","value":"akash@gmail.com"}
+- [yash@yahoo.com]{"entity":"email","value":"yash@yahoo.com"}
+- [kevin@xyz.com]{"entity":"email","value":"kevin@xyz.com"}
+- my id is [saini@siva.com]{"entity":"email","value":"saini@siva.com"}
+- my email is [akash2710raj@gmailcom]{"entity":"email","value":"akash2710raj@gmail.com"}
+- my mail is [madukar.anand@outlook.com]{"entity":"email","value":"akash"}
+- mail me on [srishti25kumari@microsoft.com]{"entity":"email","value":"srishti25kumari@microsoft.com"}
+- mail me at [tkiranmay2910@hotmail.com]{"entity":"email","value":"tkiranmay2910@hotmail.com"}
+- my email is [test@example.com]{"entity":"email","value":"test@example.com"}
+- my email is [abraham.lincoln@example.com]{"entity":"email","value":"abraham.lincoln@example.com"}
+- [abraham.lincoln@example.com]{"entity":"email","value":"abraham.lincoln@example.com"}
+- it is [abraham.lincoln@abc.com]{"entity":"email","value":"abraham.lincoln@abc.com"}
+- it is [uday@gmail.com]{"entity":"email","value":"uday@gmail.com"}
+- [abc@gmail.com]{"entity":"email","value":"abc@gmail.com"}
+- [akash@gmail.com]{"entity":"email","value":"akash@gmail.com"}
+- [yash@yahoo.com]{"entity":"email","value":"yash@yahoo.com"}
+- [kevin@xyz.com]{"entity":"email","value":"kevin@xyz.com"}
+- my id is [saini@siva.com]{"entity":"email","value":"saini@siva.com"}
+
+## intent: tell_phonenumber
+- [09195969786]{"entity":"phonenumber","value":"09195969786"}
+- my number is [+918927601986]{"entity":"phonenumber","value":"+918927601986"}
+- you can call me on [+1-325-596-9786]{"entity":"phonenumber","value":"+1-325-596-9786"}
+- my contact number is [+927631496349]{"entity":"phonenumber","value":"+927631496349"}
+- you can call me on [9134789624]{"entity":"phonenumber","value":"9134789624"}
+- [09195969786]{"entity":"phonenumber","value":"09195969786"}
+- my number is [+918927601986]{"entity":"phonenumber","value":"+918927601986"}
+- you can call me on [+1-325-596-9786]{"entity":"phonenumber","value":"+1-325-596-9786"}
+- my contact number is [+927631496349]{"entity":"phonenumber","value":"+927631496349"}
+- you can call me on [9134789624]{"entity":"phonenumber","value":"9134789624"}
+- [09195969786]{"entity":"phonenumber","value":"09195969786"}
+- my number is [+918927601986]{"entity":"phonenumber","value":"+918927601986"}
+- you can call me on [+1-325-596-9786]{"entity":"phonenumber","value":"+1-325-596-9786"}
+- my contact number is [+927631496349]{"entity":"phonenumber","value":"+927631496349"}
+- you can call me on [9134789624]{"entity":"phonenumber","value":"9134789624"}
+- [09195969786]{"entity":"phonenumber","value":"09195969786"}
+- my number is [+918927601986]{"entity":"phonenumber","value":"+918927601986"}
+- you can call me on [+1-325-596-9786]{"entity":"phonenumber","value":"+1-325-596-9786"}
+- my contact number is [+927631496349]{"entity":"phonenumber","value":"+927631496349"}
+- you can call me on [9134789624]{"entity":"phonenumber","value":"9134789624"}
+- [09195969786]{"entity":"phonenumber","value":"09195969786"}
+- my number is [+918927601986]{"entity":"phonenumber","value":"+918927601986"}
+- you can call me on [+1-325-596-9786]{"entity":"phonenumber","value":"+1-325-596-9786"}
+- my contact number is [+927631496349]{"entity":"phonenumber","value":"+927631496349"}
+- you can call me on [9134789624]{"entity":"phonenumber","value":"9134789624"}
+- [09195969786]{"entity":"phonenumber","value":"09195969786"}
+- my number is [+918927601986]{"entity":"phonenumber","value":"+918927601986"}
+- you can call me on [+1-325-596-9786]{"entity":"phonenumber","value":"+1-325-596-9786"}
+- my contact number is [+927631496349]{"entity":"phonenumber","value":"+927631496349"}
+- you can call me on [9134789624]{"entity":"phonenumber","value":"9134789624"}
+- [09195969786]{"entity":"phonenumber","value":"09195969786"}
+- my number is [+918927601986]{"entity":"phonenumber","value":"+918927601986"}
+- you can call me on [+1-325-596-9786]{"entity":"phonenumber","value":"+1-325-596-9786"}
+- my contact number is [+927631496349]{"entity":"phonenumber","value":"+927631496349"}
+- you can call me on [9134789624]{"entity":"phonenumber","value":"9134789624"}
+- [09195969786]{"entity":"phonenumber","value":"09195969786"}
+- my number is [+918927601986]{"entity":"phonenumber","value":"+918927601986"}
+- you can call me on [+1-325-596-9786]{"entity":"phonenumber","value":"+1-325-596-9786"}
+- my contact number is [+927631496349]{"entity":"phonenumber","value":"+927631496349"}
+- you can call me on [9134789624]{"entity":"phonenumber","value":"9134789624"}
+- [09195969786]{"entity":"phonenumber","value":"09195969786"}
+- my number is [+918927601986]{"entity":"phonenumber","value":"+918927601986"}
+- you can call me on [+1-325-596-9786]{"entity":"phonenumber","value":"+1-325-596-9786"}
+- my contact number is [+927631496349]{"entity":"phonenumber","value":"+927631496349"}
+- you can call me on [9134789624]{"entity":"phonenumber","value":"9134789624"}
+- [09195969786]{"entity":"phonenumber","value":"09195969786"}
+- my number is [+918927601986]{"entity":"phonenumber","value":"+918927601986"}
+- you can call me on [+1-325-596-9786]{"entity":"phonenumber","value":"+1-325-596-9786"}
+- my contact number is [+927631496349]{"entity":"phonenumber","value":"+927631496349"}
+- you can call me on [9134789624]{"entity":"phonenumber","value":"9134789624"}
+- [09195969786]{"entity":"phonenumber","value":"09195969786"}
+- my number is [+918927601986]{"entity":"phonenumber","value":"+918927601986"}
+- you can call me on [+1-325-596-9786]{"entity":"phonenumber","value":"+1-325-596-9786"}
+- my contact number is [+927631496349]{"entity":"phonenumber","value":"+927631496349"}
+- you can call me on [9134789624]{"entity":"phonenumber","value":"9134789624"}
+- [09195969786]{"entity":"phonenumber","value":"09195969786"}
+- my number is [+918927601986]{"entity":"phonenumber","value":"+918927601986"}
+- you can call me on [+1-325-596-9786]{"entity":"phonenumber","value":"+1-325-596-9786"}
+- my contact number is [+927631496349]{"entity":"phonenumber","value":"+927631496349"}
+- you can call me on [9134789624]{"entity":"phonenumber","value":"9134789624"}
+
+## intent:search_service
+- writing
+- project
+- college project
+- python project
+- project for college
+- b.tech project
+- m.tech project
+- eninnering project
+- your service
+- learning
+- tution
+- skill development
+- build skills
+- learn skill
+- learn program
+- i am looking for a tution
+- online programming
+- types of prograaming
+- new technology 
+- how to code 
+- i want to learn program
+- i want to learn code
+- i want to learn coding
+- writng sevices
+- you provide writng servics?
+- writing?
+- topic based learning
+- is you provide tbl
+- is you provide topic wise learning
+- topic wise learning
+- tbl
+- pbl
+- is you provide training on project
+- real time project
+- looking for real time project
+- looking for writing sevices
+- what services do you offer
+- what are your services
+- project based learning
+- what will you offer
+- what are various services you offer
+- do you offer any services
+- i want to know about your services
+- tell me about your services
+
+## intent:coding
+- i am looking for coding service
+- lookinf for coding tution
+- looking for coding
+- coding
+- learn code
+- how to learn code
+- how to code
+- how to start coding
+- how to get expert in coding
+- learn code
+- code
+- start code
+- looking for advance programming
+- advance programming
+- core programming
+- how to start code
+- which programming language
+- how much cost of programming language
+- i am looking for coding services
+- codeing
+- programming
+- basic programming
+- advance programming
+- learn code
+- how to learn code
+- how to code
+- how to start coding
+- how to get expert in coding
+- learn code
+- code
+- start code
+- program
+
+## intent:writing
+- looking for writing service
+- writing tution
+- is you provide writing services
+- writing
+- how to write
+- base paper writing
+- how to start writing
+- how to get expert in writing
+- learn how to write
+- write
+- start code
+- looking for good paper writing services
+- writing skills
+- way of writing
+- best way of writing
+- learn writing
+- how much cost of writing services
+- i am looking for writing based services
+- writig
+- writing journal papers
+- basic writing
+- advance writing
+- learn start writing
+- how to learn writing good
+- good writing
+- best writing
+- best wway to learn writing
+- writing experience
+
+## intent:pbl
+- i am looking for college project
+- c project
+- machine learning project
+- aiml project
+- blockchain project
+- cloud project
+- college project
+- engineering project
+- final year project
+- computer science last year project
+- cse project
+- computer vision project
+- image recognisition project
+- project on nlp
+- project on opencv
+- best cs project
+- cs project
+- last year project
+- final year project
+- 8th semester project
+- 3rd year project
+- real time project
+- project service
+- end to end project
+- project training
+- complete project training
+- masters project
+- m.tech project
+- b.tech project
+- be project
+- me project
+- project on new technology
+- latest project
+- trending project
+- easy project
+- latest real time project
+- real time machine learning project
+
+## intent:tbl
+- advance topic
+- core topic
+- i am looking project for my final year
+- basics of programming
+- advance level programming
+- full topc
+- i want to learn advance topic
+- i want to learn topic
+- is topic wise learning available
+- topic based learning services
+- advance topics
+- advance programming topic
+
+## intent: inform
+- [python]{"entity":"language","value":"python"}
+- [java]{"entity":"language","value":"java"}
+- [c]{"entity":"language","value":"c"}
+- [js]{"entity":"language","value":"js"}
+- [css]{"entity":"language","value":"css"}
+- html]{"entity":"language","value":"html"}
+- i need to know about [python]{"entity":"language","value":"python"}
+- i want [python]{"entity":"language","value":"python"}
+- i want to learn [python]{"entity":"language","value":"python"}
+- tell me about [python]{"entity":"language","value":"python"}
+- i need to know about [java]{"entity":"language","value":"java"}
+- i want [java]{"entity":"language","value":"java"}
+- i want to learn [java]{"entity":"language","value":"java"}
+- tell me about [java]{"entity":"language","value":"java"}
+- i need to know about [c]{"entity":"language","value":"c"}
+- i want [c]{"entity":"language","value":"c"}
+- i want to learn [c]{"entity":"language","value":"c"}
+- tell me about [c]{"entity":"language","value":"c"}
+- i need to know about [js]{"entity":"language","value":"js"}
+- i want [js]{"entity":"language","value":"js"}
+- i want to learn [js]{"entity":"language","value":"js"}
+- tell me about [js]{"entity":"language","value":"js"}
+- i need to know about [css]{"entity":"language","value":"css"}
+- i want [css]{"entity":"language","value":"css"}
+- i want to learn [css]{"entity":"language","value":"css"}
+- tell me about [css]{"entity":"language","value":"css"}
+- i need to know about [html]{"entity":"language","value":"html"}
+- i want [html]{"entity":"language","value":"html"}
+- i want to learn [html]{"entity":"language","value":"html"}
+- tell me about [html]{"entity":"language","value":"html"}
+- looking for [python]{"entity":"language","value":"python"} course
+- looking for [js]{"entity":"language","value":"js"} course
+- looking for [css]{"entity":"language","value":"css"} course
+- looking for [html]{"entity":"language","value":"html"} course
+
+<!-- ## intent: inform_form
+- my email is [test@example.com]{"entity":"email","value":"test@example.com"}
+- my email is [abraham.lincoln@example.com]{"entity":"email","value":"abraham.lincoln@example.com"}
+- [abraham.lincoln@example.com]{"entity":"email","value":"abraham.lincoln@example.com"}
+- it is [abraham.lincoln@abc.com]{"entity":"email","value":"abraham.lincoln@abc.com"}
+- it is [uday@gmail.com]{"entity":"email","value":"uday@gmail.com"}
+- [abc@gmail.com]{"entity":"email","value":"abc@gmail.com"}
+- [akash@gmail.com]{"entity":"email","value":"akash@gmail.com"}
+- [yash@yahoo.com]{"entity":"email","value":"yash@yahoo.com"}
+- [kevin@xyz.com]{"entity":"email","value":"kevin@xyz.com"}
+- my id is [saini@siva.com]{"entity":"email","value":"saini@siva.com"}
+- My name is [uday]{"entity":"name","value":"uday"}
+- I am [sai]{"entity":"name","value":"sai"}
+- You can call me [pavan]{"entity":"name","value":"pavan"}
+- [surya]{"entity":"name","value":"surya"} -->
+
+<!-- ## intent:advance
+- [advance] topic{"entity":"level","value":"advance"}
+- [advance] level{"entity":"level","value":"advance"}
+- [advance] concept{"entity":"level","value":"advance"}
+- python [advance] topic{"entity":"level","value":"advance"}
+- java [advance] topic{"entity":"level","value":"advance"}
+- [advance]{"entity":"level","value":"advance"}
+
+## intent:basic
+- [basic] level{"entity":"level","value":"basic"}
+- [basic] topic{"entity":"level","value":"basic"}
+- [basic] concept{"entity":"level","value":"basic"}
+- python [basic] topic{"entity":"level","value":"basic"}
+- java [basic] topic{"entity":"level","value":"basic"}
+
+## intent:expert
+- [expert] level{"entity":"level","value":"expert"}
+- [expert] topic{"entity":"level","value":"expert"}
+- [expert] concept{"entity":"level","value"expertic"}
+- python [expert] topic{"entity":"level","value":"expert"}
+- java [expert] topic{"entity":"level","value":"expert"} -->
+
+## intent:advance
+- advance topic
+- advance level
+- advance concept
+- python advance topic
+- java advance topic
+- advance
+
+## intent:basic
+- basic level
+- basic topic
+- basic concept
+- python basic topic
+- java basic topic
+
+## intent:expert
+- expert level
+- expert topic
+- expert concept
+- python expert topic
+- java expert topic
+
+## intent:topic
+- python introduction
+- python datatypes
+
+## intent:affirm
+- yes
+- indeed
+- of course
+- that sounds good
+- correct
+
+## intent:deny
+- no
+- never
+- I don't think so
+- don't like that
+- no way
+- not really
+
+## intent:bot_challenge
+- are you a bot?
+- are you a human?
+- am I talking to a bot?
+- am I talking to a human?
+- who are you?
+- what's your name?
+- your name please?
+- what i call you?
+- you are my friend?
+- let's friendship
+- who you are?
+- are you chatbot?
+- are you a bot
+- are you a human
+- am I talking to a bot
+- am I talking to a human
+- who are you
+- what's your name
+- your name please
+- what i call you
+- you are my friend
+- let's friendship
+- who you are
+- are you chatbot
+
+## intent:goodbye
+- bye
+- goodbye
+- see you around
+- see you later
+- okay by
+- okay bye
+- okay byyy
+- biii
+- byyyy
+- byyyyyeeee
+- bbyybyyby
+- biiieeee
+- bie
+- ok
+- okey
+- okkk
+- ooookkk
+- okk
+- okok
+- ook
+- oka
+- oke
+- oky
+- okai
+- by
